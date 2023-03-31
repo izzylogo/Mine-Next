@@ -1,0 +1,40 @@
+.faq{
+    padding: 30px 60px;
+}
+
+.faq h2{
+    font-size: 40px;
+}
+
+.quest-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quest-top h4{
+    margin-bottom: 0px;
+}
+
+.quest-top{
+    cursor: pointer;
+}
+
+.faqs p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.697);
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 900px) {
+    .faq{
+        padding: 20px 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .faq h2{
+        font-size: 30px;
+    }
+}

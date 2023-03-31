@@ -1,0 +1,33 @@
+.loader{
+    display: flex;
+    gap: 10px;
+    /* transform: translateX(40%); */
+}
+
+.ball1, .ball2, .ball3{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(25, 25, 25);
+    border-radius: 50%;
+    animation: jump 0.9s ease-in infinite;
+}
+
+.ball1{
+    animation-delay: 0.35s;
+}
+
+.ball2{
+    animation-delay: 0.6s;
+}
+
+@keyframes jump {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}

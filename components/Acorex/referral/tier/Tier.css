@@ -1,0 +1,78 @@
+.tier{
+    background-color: rgba(160, 202, 188, 0.419);
+    padding: 40px 60px;
+}
+
+.tier-contain{
+    margin-bottom: 40px;
+}
+
+.tier-contain h2{
+    font-size: 40px;
+}
+
+.tier-card-sec{
+    display:flex;
+    align-self: center;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 40px;
+}
+
+.tier-card{
+    background-color: white;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0px 2px 24px -6px rgba(0,0,0,0.56);
+-webkit-box-shadow: 0px 2px 24px -6px rgba(0,0,0,0.56);
+-moz-box-shadow: 0px 2px 24px -6px rgba(0,0,0,0.56);
+    padding: 15px 30px;
+}
+
+.card-top{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 15px;
+}
+
+.card-top p{
+    margin: 0px;
+}
+
+.gold{
+    color: orange;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.card-top h2{
+    font-size: 45px;
+    margin: 0px 10px !important;
+}
+
+.card-bottom{
+    margin: 0px;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 8px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.697);
+}
+
+@media screen and (max-width: 900px) {
+    .tier{
+        padding: 20px 30px;
+    }
+    .tier-card-sec{
+        flex-direction: column;
+        gap: 60px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .tier-contain h2{
+        font-size: 35px;
+    }
+}
+    

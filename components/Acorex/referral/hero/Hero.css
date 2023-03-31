@@ -1,0 +1,88 @@
+.hero{
+    background-image: url(../../assets/banner.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px 60px;
+}
+
+.logo{
+    width: 100px;
+}
+
+@media screen and (max-width: 500px) {
+    .logo{
+        width: 70px;
+    }
+}
+
+.hero-contain{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.hero-left{
+    flex: 2;
+    color: white !important;
+}
+
+.hero-left h3{
+    font-size: 48px;
+    margin-top: -45px;
+    margin-bottom: 30px;
+}
+
+.hero-left p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.848);
+}
+
+.hero-left button{
+    color: white;
+    background-color: transparent;
+    border: 1px solid rgb(253, 253, 253);
+    padding: 10px 15px;
+    border-radius: 3px;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.hero-right{
+    flex: 1;
+}
+
+@media screen and (max-width: 1100px) {
+    .hero-left{
+        flex: 1.5;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .hero{
+        padding: 20px 30px;
+    }
+    .hero-left h3{
+        font-size: 35px;
+    }
+    .hero-left{
+        flex: 1;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .hero-contain{
+        flex-direction: column;
+    }
+    .hero-right{
+        width: 100% !important;
+    }
+}
