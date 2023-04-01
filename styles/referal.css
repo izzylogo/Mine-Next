@@ -265,6 +265,13 @@ body{
   background-position: center;
   color: white;
   padding: 20px 60px;
+  height: 96vh !important ;
+}
+
+@media screen and (max-width: 900px) {
+  .hero{
+    height: 100% !important;
+  }
 }
 
 .logo {
@@ -273,7 +280,7 @@ body{
 
 @media screen and (max-width: 500px) {
   .logo {
-    width: 70px;
+    width: 60px;
   }
 }
 
@@ -281,6 +288,7 @@ body{
   display: flex;
   gap: 30px;
   align-items: center;
+  margin-top: 10px;
 }
 
 .hero-left {
@@ -313,7 +321,7 @@ body{
   align-items: center;
   gap: 10px;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .hero-right {
@@ -330,12 +338,16 @@ body{
   .hero {
     padding: 20px 30px;
   }
+  .hero-contain{
+    margin-top: 0px;
+  }
   .hero-left h3 {
     font-size: 35px;
   }
   .hero-left {
     flex: 1;
   }
+  
 }
 
 @media screen and (max-width: 650px) {
